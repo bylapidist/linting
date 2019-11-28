@@ -7,10 +7,7 @@
     "publishConfig": {
         "access": "public"
     },
-    "files": [
-        "eslint.js",
-        "prettier.js"
-    ],
+    "main": "index.js",
     "scripts": {
         "semantic-release": "npm i --no-save semantic-release && semantic-release"
     },
