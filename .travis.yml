@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+    - 13
+
+jobs:
+    include:
+        - stage: release
+          node_js: lts/*
+          script:
+              - npm run semantic-release
+
+notifications:
+    email: false
