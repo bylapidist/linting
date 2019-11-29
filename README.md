@@ -12,7 +12,7 @@
 yarn add -D @lapidist/linting
 ```
 
-Extend your config in `.eslintrc.js` and `prettierrc.js` as follows:
+Extend your config in `.eslintrc.js` and `.prettierrc.js` as follows:
 
 ```js
 const { eslintConfig } = require('@lapidist/linting');
