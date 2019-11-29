@@ -32,7 +32,16 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'prettier/react'
     ],
-    plugins: ['@typescript-eslint', 'import', 'prettier', 'node', 'promise', 'react', 'react-hooks'],
+    plugins: [
+        '@typescript-eslint',
+        'import',
+        'prettier',
+        'node',
+        'promise',
+        'react',
+        'react-hooks',
+        'jest'
+    ],
     rules: {
         'prettier/prettier': ['error', { singleQuote: true, semi: true }],
         'react-hooks/rules-of-hooks': 'error',
