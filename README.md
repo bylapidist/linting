@@ -6,5 +6,23 @@
 [![Dev Dependencies](https://david-dm.org/bylapidist/linting/dev-status.svg)](https://david-dm.org/bylapidist/linting?type=dev)
 [![Build Status](https://travis-ci.org/bylapidist/linting.svg?branch=master)](https://travis-ci.org/bylapidist/linting)
 
+## Quickstart
+
+```bash
+yarn add -D @lapidist/linting
+```
+
+Extend your config in `.eslintrc.js` and `prettierrc.js` as follows:
+
+```js
+const { eslintConfig } = require('@lapidist/linting');
+module.exports = eslintConfig;
+```
+
+```js
+const { prettierConfig } = require('@lapidist/linting');
+module.exports = prettierConfig;
+```
+
 ## License
 `@lapidist/linting` is licensed under the MIT license. See LICENSE for the full text.
