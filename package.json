@@ -4,12 +4,20 @@
     "description": "Lapidist linting config",
     "author": "Brett Dorrans <hello@lapidist.net>",
     "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "semantic-release": "npm i --no-save semantic-release @semantic-release/commit-analyzer && semantic-release"
+    },
     "publishConfig": {
         "access": "public"
     },
-    "main": "index.js",
-    "scripts": {
-        "semantic-release": "npm i --no-save semantic-release && semantic-release"
+    "release": {
+        "analyzeCommits": {
+            "preset": "angular",
+            "releaseRules": [
+                {"type": "build", "release": "minor"}
+            ]
+        }
     },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^2.9.0",
