@@ -54,5 +54,13 @@ module.exports = {
                 extensions: ['.jsx', '.tsx']
             }
         ]
-    }
+    },
+    overrides: [
+        {
+            files: ['.eslintrc.js', '.prettierrc.js'],
+            rules: {
+                'typescript/no-var-requires': 'off'
+            }
+        }
+    ]
 };
