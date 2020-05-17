@@ -5,9 +5,6 @@
     "author": "Brett Dorrans <hello@lapidist.net>",
     "license": "MIT",
     "main": "index.js",
-    "scripts": {
-        "semantic-release": "npm i --no-save semantic-release @semantic-release/commit-analyzer && semantic-release"
-    },
     "publishConfig": {
         "access": "public"
     },
