@@ -9,7 +9,7 @@
 ## Quickstart
 
 ```bash
-yarn add -D @lapidist/linting
+npm install --save-dev @lapidist/linting
 ```
 
 Extend your config in `.eslintrc.js` and `.prettierrc.js` as follows:
