@@ -57,7 +57,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['.eslintrc.js', '.prettierrc.js'],
+            files: ['*rc.js', '*rc.js'],
             rules: {
                 'typescript/no-var-requires': 'off'
             }
