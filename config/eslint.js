@@ -60,7 +60,7 @@ module.exports = {
             files: [
 		'*rc.js',
 		'*rc.js',
-		'*.config.js''
+		'*.config.js'
 	    ],
             rules: {
                 '@typescript-eslint/no-var-requires': 'off'
