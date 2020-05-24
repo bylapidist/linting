@@ -32,7 +32,8 @@ module.exports = {
         'prettier/@typescript-eslint',
         'plugin:@typescript-eslint/recommended',
         'prettier/react',
-        'plugin:jest/recommended'
+        'plugin:jest/recommended',
+        'plugin:compat/recommended'
     ],
     plugins: [
         '@typescript-eslint',
@@ -42,7 +43,8 @@ module.exports = {
         'promise',
         'react',
         'react-hooks',
-        'jest'
+        'jest',
+        'compat'
     ],
     rules: {
         'prettier/prettier': ['error', { singleQuote: true, semi: true }],
@@ -53,7 +55,8 @@ module.exports = {
             {
                 extensions: ['.jsx', '.tsx']
             }
-        ]
+        ],
+        'compat/compat': 'error'
     },
     overrides: [
         {
