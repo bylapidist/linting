@@ -25,7 +25,7 @@
             "preset": "angular",
             "releaseRules": [
                 {
-                    "type": "build",
+                    "type": "chore",
                     "release": "minor"
                 }
             ]
