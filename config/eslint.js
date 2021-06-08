@@ -59,7 +59,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['*rc.js', '*rc.js', '*.config.js'],
+            files: ['*rc.js', '*.config.js'],
             rules: {
                 '@typescript-eslint/no-var-requires': 'off',
                 '@typescript-eslint/explicit-function-return-type': 'off'
