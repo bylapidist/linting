@@ -11,7 +11,7 @@ jobs:
             - name: Setup Node.js
               uses: actions/setup-node@v2
               with:
-                  node-version: 13
+                  node-version: 16
 
             - name: Get node.js cache directory
               id: node-cache-dir
