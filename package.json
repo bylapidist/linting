@@ -48,7 +48,7 @@
         "jest": "^27.0.0",
         "prettier": "^2.3.0",
         "stylelint": "^14.0.0",
-        "stylelint-config-recommended": "^5.0.0",
+        "stylelint-config-recommended": "^6.0.0",
         "stylelint-config-styled-components": "^0.1.1",
         "stylelint-no-unsupported-browser-features": "^5.0.1",
         "stylelint-processor-styled-components": "^1.10.0"
