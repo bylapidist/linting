@@ -51,7 +51,7 @@
         "stylelint": "^14.0.0",
         "stylelint-config-css-modules": "^4.1.0",
         "stylelint-config-recommended": "^9.0.0",
-        "stylelint-no-unsupported-browser-features": "^5.0.2"
+        "stylelint-no-unsupported-browser-features": "^6.0.0"
     },
     "devDependencies": {
         "typescript": "4.8.4"
