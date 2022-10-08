@@ -10,7 +10,7 @@
 npm install --save-dev @lapidist/linting
 ```
 
-Extend your config in `.eslintrc.js` and `.prettierrc.js` as follows:
+Extend your config in `.eslintrc.js`, `.prettierrc.js` and `.stylelintrc.js` as follows:
 
 ```js
 const { eslintConfig } = require('@lapidist/linting');
@@ -20,6 +20,11 @@ module.exports = eslintConfig;
 ```js
 const { prettierConfig } = require('@lapidist/linting');
 module.exports = prettierConfig;
+```
+
+```js
+const { stylelintConfig } = require('@lapidist/linting');
+module.exports = stylelintConfig;
 ```
 
 ## License
