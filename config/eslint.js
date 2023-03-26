@@ -23,7 +23,8 @@ module.exports = {
         react: {
             pragma: 'React',
             version: 'detect'
-        }
+        },
+        'mdx/code-blocks': true
     },
     extends: [
         'eslint:recommended',
@@ -32,7 +33,8 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
         'plugin:jest/recommended',
-        'plugin:compat/recommended'
+        'plugin:compat/recommended',
+        'plugin:mdx/recommended'
     ],
     plugins: [
         '@typescript-eslint',
