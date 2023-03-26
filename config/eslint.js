@@ -33,8 +33,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
         'plugin:jest/recommended',
-        'plugin:compat/recommended',
-        'plugin:mdx/recommended'
+        'plugin:compat/recommended'
     ],
     plugins: [
         '@typescript-eslint',
@@ -66,6 +65,10 @@ module.exports = {
                 '@typescript-eslint/no-var-requires': 'off',
                 '@typescript-eslint/explicit-function-return-type': 'off'
             }
+        },
+        {
+            files: ['.mdx', '.md'],
+            extends: 'plugin:mdx/recommended'
         }
     ]
 };
