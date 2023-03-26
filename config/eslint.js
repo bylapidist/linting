@@ -67,7 +67,8 @@ module.exports = {
             }
         },
         {
-            files: ['.mdx', '.md'],
+            files: ['*.mdx', '*.md'],
+            parser: 'eslint-mdx',
             extends: 'plugin:mdx/recommended'
         }
     ]
