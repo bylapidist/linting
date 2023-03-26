@@ -53,7 +53,7 @@ module.exports = {
         'react/jsx-filename-extension': [
             'warn',
             {
-                extensions: ['.jsx', '.tsx']
+                extensions: ['.jsx', '.tsx', '.mdx']
             }
         ],
         'compat/compat': 'error'
