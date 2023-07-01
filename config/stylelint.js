@@ -11,6 +11,7 @@ module.exports = {
             {
                 message: 'Expected custom property name to be BEM-like'
             }
-        ]
+        ],
+        'declaration-block-no-duplicate-properties': true
     }
 };
