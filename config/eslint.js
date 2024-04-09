@@ -39,7 +39,7 @@ module.exports = {
         '@typescript-eslint',
         'import',
         'prettier',
-        'node',
+        'n',
         'promise',
         'react',
         'react-hooks',
